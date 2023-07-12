@@ -7,29 +7,16 @@ import streamlit.components.v1 as components
 
 import warnings
 
-import cv2
-import numpy as np
-from matplotlib import pyplot as plt
-from past.builtins import raw_input
-from sympy import div
-
 warnings.filterwarnings('ignore')
 
-# get_ipython().run_line_magic('matplotlib', 'inline')
-
-from st_aggrid import AgGrid
 from PIL import Image
 
 # Importing python files
 import sys
 import os
-import io
+
 
 sys.path.append(os.path.abspath("C:/Users/Sebastian Arce/Documents/Data Science/streamlit_app/dani_bday/emily"))
-
-from itertools import cycle
-import glob
-
 
 # Database
 
