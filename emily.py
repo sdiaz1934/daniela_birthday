@@ -8,10 +8,7 @@ tab1, tab2, tab3, tab4, tab5, tab6, tab7, tab8, tab9, tab10, tab11, tab12, tab13
     ["H", "A", "P", "P", "Y"," ","B", "I", "R", "T", "H", "D", "A", "Y"])
 
 with tab1:
-    # image_1 = """
-    #         <iframe src="https://drive.google.com/file/d/1soyz08SSsIFrzNwP5vK88fP9gUQSoiZB/preview" width="400" height="500" allow="autoplay"></iframe>
-    #         """
-    # st.markdown(image_1, unsafe_allow_html=True)
+
     image_1=Image.open("emily/Screenshot_20230709-220246.jpg")
     image_1=image_1.resize((400,500))
     st.image(image_1)
